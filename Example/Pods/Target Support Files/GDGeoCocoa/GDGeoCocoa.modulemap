@@ -1,0 +1,6 @@
+framework module GDGeoCocoa {
+  umbrella header "GDGeoCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}

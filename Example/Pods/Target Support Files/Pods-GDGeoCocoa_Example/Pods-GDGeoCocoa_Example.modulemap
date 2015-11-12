@@ -1,0 +1,6 @@
+framework module Pods_GDGeoCocoa_Example {
+  umbrella header "Pods-GDGeoCocoa_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
