@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        Converts lat/long coordinates to/from MGRS and UTM formats.
                        DESC
 
   s.homepage         = "https://github.com/davidykay/GDGeoCocoa"
