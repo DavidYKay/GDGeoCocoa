@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "GDGeoCocoa"
   s.version          = "0.1.0"
-  s.summary          = "A short description of GDGeoCocoa."
+  s.summary          = "A library for converting lat/long to and from MGRS and UTM"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/GDGeoCocoa"
+  s.homepage         = "https://github.com/gdey/GDGeoCocoa"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license          = 'BSD'
   s.author           = { "Gautam Dey" => "gautam.dey77@gmail.com",
                          "David Young-Chan Kay" => "davidykay@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/GDGeoCocoa.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/gdey/GDGeoCocoa.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
