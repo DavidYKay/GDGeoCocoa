@@ -262,8 +262,8 @@
     NSString *mgrs = [aMgrs uppercaseString];
     NSScanner *scanner = [[NSScanner alloc] initWithString:mgrs];
 
-    NSInteger gzdn  = 0;
-    NSAssert([scanner scanInteger:&gzdn], @"Was passed a string that does not look like an mgrs string");
+//    NSInteger gzdn  = 0;
+//    NSAssert([scanner scanInteger:&gzdn], @"Was passed a string that does not look like an mgrs string");
 
     NSInteger location =  [scanner scanLocation] + 1;
     scanner = nil;
