@@ -1,15 +1,16 @@
 {
   "name": "GDGeoCocoa",
   "version": "0.1.0",
-  "summary": "A short description of GDGeoCocoa.",
+  "summary": "A library for converting lat/long to and from MGRS and UTM",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/GDGeoCocoa",
-  "license": "MIT",
+  "homepage": "https://github.com/davidykay/GDGeoCocoa",
+  "license": "BSD",
   "authors": {
+    "Gautam Dey": "gautam.dey77@gmail.com",
     "David Young-Chan Kay": "davidykay@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/GDGeoCocoa.git",
+    "git": "https://github.com/davidykay/GDGeoCocoa.git",
     "tag": "0.1.0"
   },
   "platforms": {

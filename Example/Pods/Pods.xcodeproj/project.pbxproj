@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04AA70B8D2CC3E1021DCCFEEE34C7333 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B0CBF1C26A97FB6FEFDFDB7BA71F75 /* FBSnapshotTestCase-dummy.m */; };
 		055A32E04CF3939AF32C742204AE4C34 /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06EFFE5D2646CB7AE849B947E1675A77 /* GDGeoCLLocationCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7062AFCA337C927D9526B153BD15E072 /* GDGeoCLLocationCategory.m */; };
 		08633497048C6516EEEE5B61AF8932F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089DA448F1CB0FB085C4E12AFDD53A2 /* XCTest.framework */; };
 		092A8385B06DB60A5D330B704E48D36E /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 979A46F25D9FAAF442E8F9E6AF55F135 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C5FDDFAA8EF749AEB78EE3213E49633 /* ExpectaObject+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA8473E9C7CE1583F74DFBDAE8B0854 /* ExpectaObject+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,10 +17,10 @@
 		0D16B556212D317A0D4FEB71E102E207 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EBFA5FBE4953A83B677CE2A75746761 /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0F94F5B0ABB3252B9275B7C129EC7A26 /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10930EDFE8C7D2E78F50EEB58867E1B7 /* GDGeoCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F75C862988E2E64093FF92E8C8A5C2 /* GDGeoCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C1AEB289C1EB80089349B71F09D04B /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1312A7D381C51428CF481E33E3D37901 /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C3D8B18F8E2A5FB67C1A251F1D7AA4 /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		131532787AD40BE1F35DF288D2E6FFD7 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		138B466A002816A05EDB7C6A38157F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
 		143EABB2B234961F56E64C8DA488D995 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9075248C77581BD5230031BD8E5BA45 /* UIImage+Diff.m */; };
 		160FDA46EE919AAF97E0E4EC04C9E232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
 		17572374B2AE183C6347C41E8DF8E579 /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -28,6 +29,7 @@
 		1B0389CD88AA949B34DC7269030FEC6F /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		201BF9C605852822CA5A65ADE282A310 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C22221B3B6D1F46AB81218794BF7243C /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		204D694B03BFF3B244A6AB73FACFFC43 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A4579B877C302F516E9CEE77766372 /* Expecta-dummy.m */; };
+		24DD58B17A495B00F0F57F3DFA3A21BD /* GDGeoCoordMGRS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1239766CD789FBC902660CB6EB1CDB /* GDGeoCoordMGRS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2589E797E7DCBCCB5080894C0A27D866 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE0D6A47393B29719A2BF4340A993CE /* FBSnapshotTestCase.m */; };
 		260BC7EED9289AF321A6F791964CE472 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 158CEFBA77071AB835E435120F4CE616 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2916A0606136A9DC67F2463AB230868B /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE7EA43918F8547CCF8A9EABF75B788 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +38,7 @@
 		2E14619153A453BB8DF389FB6EA147BE /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D24C93A44A823E785EE91D78394D63B9 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2ECB05C9A53105711454D137D0CB013C /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 757732CABCCD0D3A3DECF0188321177D /* Specta-dummy.m */; };
 		2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3011DC9380F4ABBB596515CBA0FB94EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
 		34B6E9A30603BEBBD87BA535B7D384CA /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35E8A389A8D087668C298209AAFFE35B /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084E3F0BF91113EC5ADAD2356684C5D2 /* Expecta.framework */; };
 		3635FC277ED14520E723922FCFE0BD84 /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = FB362E8DBE566CD58ABD4124535F2081 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +48,7 @@
 		397B320B7C59C168CC5B62E18ED8DEA0 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B5B7495707BF7133B9FB3F834045611 /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1795ED3D682D8EDC5CEC1EA831BEECEA /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C2700C7DAA15C6AF84A595865C42F4D /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E849EC960F7FD03CC34C6784F195E24 /* GDGeoCoordMGRS.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D49FFB99FA1D5876DD5232CFE6888D /* GDGeoCoordMGRS.m */; };
 		402CA7AE07B153C774D798C87BC3492B /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		403292D82DA62291204BF59524BC4EDB /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 5267376A130B688AA8DC669933C16D9A /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		41DA111AEE490D05F04025505E825B91 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 928CB47DE4B1596A4A342DD651619A9F /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,13 +63,12 @@
 		4BBCBB9D8EF0B241A4A4FE4982985481 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF85B6558D634E3F383BA6AAEF3267 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		519FEC7B816367A7F2396D2343C272C6 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D657B34A1C94FBF176F35C1081FD8A9 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51DDDB0FB4899757CF6A826B531B940D /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52881E522E8B75D8BC605ED537C0AB7C /* GDGeoCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBE73CCA8A289C2F6C3BCCACA7C049C /* GDGeoCocoa-dummy.m */; };
+		57CD2643498078FFF29C273F20DBC8F5 /* GDGeoCocoa.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1BF96E5F99A303487BD5A0BB324AF24 /* GDGeoCocoa.bundle */; };
 		595A04BC68811583B92D4E64236C0928 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94C2222C0253B958B353EECC310234 /* QuartzCore.framework */; };
 		5A3DED2AC8EC782575EBFF45ED0E3901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764BD0C6C04DBD414FC179851898776C /* UIKit.framework */; };
 		5B2D4A621D3DA971A474776AF36BB073 /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C09805DD701F05B0FA3348EDA3BDC7CB /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61DC7B8FDAC76B1EAB04E576ECCED032 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C868D690588A6B89F532448ECAE12885 /* FBSnapshotTestController.m */; };
-		65476F3018DF0A7A2F9BFCC9CF9EAC25 /* GDGeoCocoa.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1BF96E5F99A303487BD5A0BB324AF24 /* GDGeoCocoa.bundle */; };
 		65BC31095CCDFC80CBF6BBA843751F23 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A27898E989A3FA5C15AA671C4536F0 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BA7B5F09D477F128F7CD8D3AB7FF2 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		671AA9503523C7A2F6DCF02AE77BC839 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E1EDDA8A4867913953E0CBF82097C2 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -98,7 +101,9 @@
 		8F5FCD4AB6C8870E8FEB23AFEA404A98 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF46F134970C91061B1E020DB0DACB7 /* SwiftSupport.swift */; };
 		918E06480F28F27361B19D19432F8538 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2072991CBA5987025178150BD49F6 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D54F2046B9323D0CB2748E382BAA3 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9450A8D67A3630C4B44EEA142973E9A3 /* GDGeoCLLocationCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E0EE07D3901632662783991E41C449A1 /* GDGeoCLLocationCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94C47C87E397972CE98F75929F3B706C /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C4016D8E6902B23AF2CA1BB3EBE78467 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		97885B1E6DCE644EB45263EF6751E961 /* GDGeoCoordUTM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8984F7D589CC47E652AA1ECC980024DE /* GDGeoCoordUTM.m */; };
 		98A90780B811F24630D6D2F7AB205587 /* Pods-GDGeoCocoa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7C9CF4E4C109BD0F6B6E90F757CBE7 /* Pods-GDGeoCocoa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2E761A064459F77EA9870BEF03ACC3 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB9159FBA757600D3D4C0FF645F3911 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB667FDEC11589B26C54AE25F550F2C /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -106,6 +111,8 @@
 		A1DCF9A9C12B7883BBEC2B985690A9F7 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 768E0C437692539220C0D4D914229388 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A353A152CFDBB55CCD0B6EEDCFABBA89 /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */; };
 		A851BC4C6ADFC89707E15EAB0FED252D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
+		A8944D9333EED2083AF070EAE2DCF36C /* GDGeoCoordConv.h in Headers */ = {isa = PBXBuildFile; fileRef = A97EE38A02E79C996667B45B2DBD192F /* GDGeoCoordConv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF372F38398E9F0129C9DB00477D7FE /* GDGeoCoordUTM.h in Headers */ = {isa = PBXBuildFile; fileRef = 10ED4CF31D06BE216F63751A3A6868B6 /* GDGeoCoordUTM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE179816838FC6730C3B072EA31746CC /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF1F46668D4591602887998C6E9C10AD /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C6B238F553535C865A990AB217F102 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFFC8900E52BBEC72059334132F3A8F3 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -114,11 +121,9 @@
 		B84431CF8C64F363A334AA7089F6C134 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BA12B131F10BCE3BE6E9A02FC908FE9D /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BC55C8365AEFF8217F6A567607754854 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BCAD01F42596F9742C3C6725E4C6EDE1 /* GDGeoCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F75C862988E2E64093FF92E8C8A5C2 /* GDGeoCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEFFE9FFE52E9A0833A7D2D8FB67EB4D /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D9D3D0C96D5284831B2C833DD79A36 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE3F4ECBB0BC095577D66AE50C8E604C /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AF203F6B98E185A822F5F0BC6DB151 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D303273E4C0F2EF2D25FF4A72A8ECB28 /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A35BE0267849F84514C1480B43A470C /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D39A90CFFA54F167E58E835279A5004C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E81DB874AA43352D9F52EB2C620B9 /* ReplaceMe.m */; };
 		D5E540C73693D5B2EA36AE621264004C /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6838E42D9C50FC39B1D3006C0724E9C /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B782A5F5606BC64AF7B709A1D93B4E /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7F64744555CA8BE0EBC6BC7B03C4DF4 /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */; };
@@ -135,6 +140,7 @@
 		E874208237E6BD929B0EBBDD31D67968 /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8D21AF132EBC28D835A789DB670D487 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8D77E6E97AC175F3266E705640ADF84 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 7085F5CB16BF96F625D6465A4DA29F6F /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB220F520A64B02788BA517678898F79 /* GDGeoCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBE73CCA8A289C2F6C3BCCACA7C049C /* GDGeoCocoa-dummy.m */; };
 		EF6497EE123F6BC0C1B09717437C5908 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21C236068062A9C4DDD612C5A3467B /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F0DDF02A078B917997FF025BB33BB842 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EE63300C3D43B1B92124CD21806E8C /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F12D57414A73406831CC032A7170DBFF /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -152,6 +158,7 @@
 		FD617D9E76C132DBC45A4BC91F468B6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
 		FDBA9096E4B1AC5CA142999FE12570D3 /* Pods-GDGeoCocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D720E3048EBF731547BBBAF2EFB6C79F /* Pods-GDGeoCocoa_Example-dummy.m */; };
 		FE8E34356D24F6759A8B010ED2F5707B /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC296A75FAF73BAC957A272364A7351 /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF59B655E74AC3D24917AFCFBF123748 /* GDGeoCoordConv.m in Sources */ = {isa = PBXBuildFile; fileRef = C8561A5E883A9EA9FD276FE8C94E3082 /* GDGeoCoordConv.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,7 +187,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 229B7F6EB79AFC0F607DE9BBE9048CE9;
+			remoteGlobalIDString = 3D50AE28018A1A6A001ABF4DFAD09E89;
 			remoteInfo = GDGeoCocoa;
 		};
 		796BF64C8AF37964ED8006BB030B2AB5 /* PBXContainerItemProxy */ = {
@@ -189,13 +196,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = DD86ABD743B0605672C710ADC56EB9DA;
 			remoteInfo = FBSnapshotTestCase;
-		};
-		A9E76CCCA182668818B247D5C3A266AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB91AE0EFA8BD9CF3AAD3697C51A0EB4;
-			remoteInfo = "GDGeoCocoa-GDGeoCocoa";
 		};
 		C209ED42D799DB64B3C2654EF4891497 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -208,7 +208,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 229B7F6EB79AFC0F607DE9BBE9048CE9;
+			remoteGlobalIDString = 3D50AE28018A1A6A001ABF4DFAD09E89;
 			remoteInfo = GDGeoCocoa;
 		};
 		E0554EF2942F72AD762F1056DCF6FB23 /* PBXContainerItemProxy */ = {
@@ -217,6 +217,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0D888F29E05E498D0CD91A51D28599A5;
 			remoteInfo = Expecta;
+		};
+		E4D4BB6EF59135E59EF698B1971936A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13051C862557157B5BA934F665135B46;
+			remoteInfo = "GDGeoCocoa-GDGeoCocoa";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -232,6 +239,7 @@
 		0A5F6EC9C4C2795348152BA100C32B10 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		10315E06065FE4B85E98C2B1E00E8F1B /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ED4CF31D06BE216F63751A3A6868B6 /* GDGeoCoordUTM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDGeoCoordUTM.h; sourceTree = "<group>"; };
 		1127DB8BEB2B54CEE94C453721BDC124 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		158CEFBA77071AB835E435120F4CE616 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		15EE63300C3D43B1B92124CD21806E8C /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
@@ -252,6 +260,7 @@
 		2744A2542946D8DE61ED04D083BCEA56 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		274B0E07010F236BE53B3B98CEC9AB62 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
+		2A1239766CD789FBC902660CB6EB1CDB /* GDGeoCoordMGRS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDGeoCoordMGRS.h; sourceTree = "<group>"; };
 		2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		2F645EBA093F9FF47932FF1D5CE54764 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		306E137B97A38C22CEC1E6B27B33B78A /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
@@ -279,7 +288,6 @@
 		49EB107F5A9F646A5D2300DC4FC7E984 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A13AEBD3A512EC975C2DD3AF8D8931D /* Expecta+Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.xcconfig"; sourceTree = "<group>"; };
 		4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
-		4C1E81DB874AA43352D9F52EB2C620B9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		4C7C9CF4E4C109BD0F6B6E90F757CBE7 /* Pods-GDGeoCocoa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GDGeoCocoa_Example-umbrella.h"; sourceTree = "<group>"; };
 		4D94C2222C0253B958B353EECC310234 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		5089DA448F1CB0FB085C4E12AFDD53A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -297,6 +305,7 @@
 		6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		6F171023695E78011482097406A42BC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7062AFCA337C927D9526B153BD15E072 /* GDGeoCLLocationCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GDGeoCLLocationCategory.m; sourceTree = "<group>"; };
 		707C1B7180164DF6560719973AEC92C1 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		7085F5CB16BF96F625D6465A4DA29F6F /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
 		70879F4C3E0CE4C4593A08B4BB1C1AF0 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
@@ -318,6 +327,7 @@
 		816970D5545DD39BAFB32CEA596AECF2 /* GDGeoCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GDGeoCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
 		85E0572697B6E94017767ED962985122 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8984F7D589CC47E652AA1ECC980024DE /* GDGeoCoordUTM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GDGeoCoordUTM.m; sourceTree = "<group>"; };
 		8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
@@ -340,12 +350,14 @@
 		A45623F5FFFE8CF2B5BF03F7A6DF5754 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A54AE821E3D5E7DF7DA3ED83AF9B4AF2 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
 		A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
+		A97EE38A02E79C996667B45B2DBD192F /* GDGeoCoordConv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDGeoCoordConv.h; sourceTree = "<group>"; };
 		A9A4579B877C302F516E9CEE77766372 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
 		AB2DADCEEF4EB97FC102ACCDF8FB51E9 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
 		AE7C345208FD526EBF1666A57C96DED0 /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFE305560483772516B366088F6E2B4 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
+		B3D49FFB99FA1D5876DD5232CFE6888D /* GDGeoCoordMGRS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GDGeoCoordMGRS.m; sourceTree = "<group>"; };
 		B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		B4E553ECAD689166E16E72CBB083D61A /* Expecta+Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta+Snapshots-dummy.m"; sourceTree = "<group>"; };
 		B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
@@ -367,6 +379,7 @@
 		C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		C468A58BBD0142C1B15D5D1E99CD14D2 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		C6C7CD39279BCFD392135DCF45F61F03 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
+		C8561A5E883A9EA9FD276FE8C94E3082 /* GDGeoCoordConv.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GDGeoCoordConv.m; sourceTree = "<group>"; };
 		C868D690588A6B89F532448ECAE12885 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		CD486E43B7465271EE4EBCB98E5DAF8D /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		CD7582733015B7D005A247EF5856A0D6 /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
@@ -383,6 +396,7 @@
 		D8ACD5E91759FCBB2D4F55A61887E5DC /* Pods-GDGeoCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDGeoCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
+		E0EE07D3901632662783991E41C449A1 /* GDGeoCLLocationCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDGeoCLLocationCategory.h; sourceTree = "<group>"; };
 		E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
@@ -404,18 +418,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		077BB75D5D277F09576D7B65F1E3071E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3011DC9380F4ABBB596515CBA0FB94EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		23363621B3D725D235049F3E2CCA5C52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				840AE5705E5C367A46BE58C99C342CD5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45CB760AD7B760A2F15CB54BCD8133E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +442,13 @@
 				595A04BC68811583B92D4E64236C0928 /* QuartzCore.framework in Frameworks */,
 				5A3DED2AC8EC782575EBFF45ED0E3901 /* UIKit.framework in Frameworks */,
 				A090E1335802D26E75D008CC54E3EBE7 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7813A96494B1E20F4A783915CFA9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,14 +468,6 @@
 				B04AC583A2D3144AD6B5050CFAD6C103 /* FBSnapshotTestCase.framework in Frameworks */,
 				D9826D759990C411D44776DFAF0705E1 /* Foundation.framework in Frameworks */,
 				08633497048C6516EEEE5B61AF8932F7 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB01579471A6C34F8F9F6F52B9498E13 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				138B466A002816A05EDB7C6A38157F79 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,14 +530,6 @@
 			path = "Example/Pods/Target Support Files/GDGeoCocoa";
 			sourceTree = "<group>";
 		};
-		2C68ED8E6C9A14CFD4B2AAB48D767D02 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4C1E81DB874AA43352D9F52EB2C620B9 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		2D10E3A58DE1576CA21DF3FB7F432051 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -541,7 +547,7 @@
 		3371CA925EFAE811CC77459E2D838425 /* GDGeoCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				E3D59E52736092BCF0577EECDD6A5131 /* Pod */,
+				CDE0135687A01485D0B11C3391735A0A /* Pod */,
 				28D04D6C2FADA10AF696D756B288DC6D /* Support Files */,
 			);
 			name = GDGeoCocoa;
@@ -800,6 +806,14 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		CDE0135687A01485D0B11C3391735A0A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D5A5F2BFDA5C35D9A7A6862345319A9B /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		D444F89BC8BA24BC0761D553BC8F0231 /* Expecta+Snapshots */ = {
 			isa = PBXGroup;
 			children = (
@@ -812,12 +826,19 @@
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
-		E3D59E52736092BCF0577EECDD6A5131 /* Pod */ = {
+		D5A5F2BFDA5C35D9A7A6862345319A9B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2C68ED8E6C9A14CFD4B2AAB48D767D02 /* Classes */,
+				E0EE07D3901632662783991E41C449A1 /* GDGeoCLLocationCategory.h */,
+				7062AFCA337C927D9526B153BD15E072 /* GDGeoCLLocationCategory.m */,
+				A97EE38A02E79C996667B45B2DBD192F /* GDGeoCoordConv.h */,
+				C8561A5E883A9EA9FD276FE8C94E3082 /* GDGeoCoordConv.m */,
+				2A1239766CD789FBC902660CB6EB1CDB /* GDGeoCoordMGRS.h */,
+				B3D49FFB99FA1D5876DD5232CFE6888D /* GDGeoCoordMGRS.m */,
+				10ED4CF31D06BE216F63751A3A6868B6 /* GDGeoCoordUTM.h */,
+				8984F7D589CC47E652AA1ECC980024DE /* GDGeoCoordUTM.m */,
 			);
-			path = Pod;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		EC13DDF6CA2C4CAAA835ABE5DA3A731F /* Support Files */ = {
@@ -859,11 +880,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63DEAF8048982E7C766ADE85654E024A /* Headers */ = {
+		525372E76DE56796A71392716E047ADF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCAD01F42596F9742C3C6725E4C6EDE1 /* GDGeoCocoa-umbrella.h in Headers */,
+				9450A8D67A3630C4B44EEA142973E9A3 /* GDGeoCLLocationCategory.h in Headers */,
+				10930EDFE8C7D2E78F50EEB58867E1B7 /* GDGeoCocoa-umbrella.h in Headers */,
+				A8944D9333EED2083AF070EAE2DCF36C /* GDGeoCoordConv.h in Headers */,
+				24DD58B17A495B00F0F57F3DFA3A21BD /* GDGeoCoordMGRS.h in Headers */,
+				AAF372F38398E9F0129C9DB00477D7FE /* GDGeoCoordUTM.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -988,19 +1013,36 @@
 			productReference = 10315E06065FE4B85E98C2B1E00E8F1B /* Expecta.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		229B7F6EB79AFC0F607DE9BBE9048CE9 /* GDGeoCocoa */ = {
+		13051C862557157B5BA934F665135B46 /* GDGeoCocoa-GDGeoCocoa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0D458083688C7EFBBAD41770677E4CA /* Build configuration list for PBXNativeTarget "GDGeoCocoa" */;
+			buildConfigurationList = 4C4B12C8247C4E18F56B1F826D33ECF0 /* Build configuration list for PBXNativeTarget "GDGeoCocoa-GDGeoCocoa" */;
 			buildPhases = (
-				54F80D7DA3C6DC676C401E32E509AD02 /* Sources */,
-				CB01579471A6C34F8F9F6F52B9498E13 /* Frameworks */,
-				1B2E086B43EECEBDEAA6F6DD4A5EAB1D /* Resources */,
-				63DEAF8048982E7C766ADE85654E024A /* Headers */,
+				C7C98746827758B3731A1D5B4BEC5E76 /* Sources */,
+				4D7813A96494B1E20F4A783915CFA9FC /* Frameworks */,
+				39F11E2A8DE2AA39178FAB7F44FA74BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84D8803019899874A95A3B1F456D54E3 /* PBXTargetDependency */,
+			);
+			name = "GDGeoCocoa-GDGeoCocoa";
+			productName = "GDGeoCocoa-GDGeoCocoa";
+			productReference = D1BF96E5F99A303487BD5A0BB324AF24 /* GDGeoCocoa.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3D50AE28018A1A6A001ABF4DFAD09E89 /* GDGeoCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B760684AA7CB2F7FF05519C426CE0E1 /* Build configuration list for PBXNativeTarget "GDGeoCocoa" */;
+			buildPhases = (
+				6A7EC7FECAA2983B4007F39AA40B062A /* Sources */,
+				077BB75D5D277F09576D7B65F1E3071E /* Frameworks */,
+				B4C906E25AC70750BB906FB0A68E36A9 /* Resources */,
+				525372E76DE56796A71392716E047ADF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7309E0578C671A68F0510F70F76C5EF2 /* PBXTargetDependency */,
 			);
 			name = GDGeoCocoa;
 			productName = GDGeoCocoa;
@@ -1081,23 +1123,6 @@
 			productReference = 39A5D6DD8D4E2A66F5A5D15244E3D803 /* Pods_GDGeoCocoa_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EB91AE0EFA8BD9CF3AAD3697C51A0EB4 /* GDGeoCocoa-GDGeoCocoa */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D915D75E210E5551876BA1598C1B9011 /* Build configuration list for PBXNativeTarget "GDGeoCocoa-GDGeoCocoa" */;
-			buildPhases = (
-				0114C7B6B805D763FFB48276434B1AA6 /* Sources */,
-				45CB760AD7B760A2F15CB54BCD8133E1 /* Frameworks */,
-				7D2F93A2F10CBA803B51CF79CA292081 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "GDGeoCocoa-GDGeoCocoa";
-			productName = "GDGeoCocoa-GDGeoCocoa";
-			productReference = D1BF96E5F99A303487BD5A0BB324AF24 /* GDGeoCocoa.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		ED4342E27597144E22BA4081D52F6DD1 /* Expecta+Snapshots */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D7C57535E00101DBAC3A552812FD924 /* Build configuration list for PBXNativeTarget "Expecta+Snapshots" */;
@@ -1141,8 +1166,8 @@
 				0D888F29E05E498D0CD91A51D28599A5 /* Expecta */,
 				ED4342E27597144E22BA4081D52F6DD1 /* Expecta+Snapshots */,
 				DD86ABD743B0605672C710ADC56EB9DA /* FBSnapshotTestCase */,
-				229B7F6EB79AFC0F607DE9BBE9048CE9 /* GDGeoCocoa */,
-				EB91AE0EFA8BD9CF3AAD3697C51A0EB4 /* GDGeoCocoa-GDGeoCocoa */,
+				3D50AE28018A1A6A001ABF4DFAD09E89 /* GDGeoCocoa */,
+				13051C862557157B5BA934F665135B46 /* GDGeoCocoa-GDGeoCocoa */,
 				E5E047DE06E0A977F1778E04E916F227 /* Pods-GDGeoCocoa_Example */,
 				E4752C6BBE4BEB799DD9BEEB5CA2094B /* Pods-GDGeoCocoa_Tests */,
 				4006D3C8D673F922D0B90D73F73457D5 /* Specta */,
@@ -1151,31 +1176,24 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1B2E086B43EECEBDEAA6F6DD4A5EAB1D /* Resources */ = {
+		39F11E2A8DE2AA39178FAB7F44FA74BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65476F3018DF0A7A2F9BFCC9CF9EAC25 /* GDGeoCocoa.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D2F93A2F10CBA803B51CF79CA292081 /* Resources */ = {
+		B4C906E25AC70750BB906FB0A68E36A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CD2643498078FFF29C273F20DBC8F5 /* GDGeoCocoa.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0114C7B6B805D763FFB48276434B1AA6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		042D64A1F375CDAB39D85979673868B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1217,12 +1235,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54F80D7DA3C6DC676C401E32E509AD02 /* Sources */ = {
+		6A7EC7FECAA2983B4007F39AA40B062A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52881E522E8B75D8BC605ED537C0AB7C /* GDGeoCocoa-dummy.m in Sources */,
-				D39A90CFFA54F167E58E835279A5004C /* ReplaceMe.m in Sources */,
+				06EFFE5D2646CB7AE849B947E1675A77 /* GDGeoCLLocationCategory.m in Sources */,
+				EB220F520A64B02788BA517678898F79 /* GDGeoCocoa-dummy.m in Sources */,
+				FF59B655E74AC3D24917AFCFBF123748 /* GDGeoCoordConv.m in Sources */,
+				3E849EC960F7FD03CC34C6784F195E24 /* GDGeoCoordMGRS.m in Sources */,
+				97885B1E6DCE644EB45263EF6751E961 /* GDGeoCoordUTM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1268,6 +1289,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7C98746827758B3731A1D5B4BEC5E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7AF55C8D0E2D9F14BBE4349E979BD2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1295,11 +1323,11 @@
 			target = DD86ABD743B0605672C710ADC56EB9DA /* FBSnapshotTestCase */;
 			targetProxy = 796BF64C8AF37964ED8006BB030B2AB5 /* PBXContainerItemProxy */;
 		};
-		84D8803019899874A95A3B1F456D54E3 /* PBXTargetDependency */ = {
+		7309E0578C671A68F0510F70F76C5EF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GDGeoCocoa-GDGeoCocoa";
-			target = EB91AE0EFA8BD9CF3AAD3697C51A0EB4 /* GDGeoCocoa-GDGeoCocoa */;
-			targetProxy = A9E76CCCA182668818B247D5C3A266AA /* PBXContainerItemProxy */;
+			target = 13051C862557157B5BA934F665135B46 /* GDGeoCocoa-GDGeoCocoa */;
+			targetProxy = E4D4BB6EF59135E59EF698B1971936A3 /* PBXContainerItemProxy */;
 		};
 		A28B7BE98B87EA7500818B1472BB7AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1316,7 +1344,7 @@
 		C134593B39BB923C9D8B70D6FB457630 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GDGeoCocoa;
-			target = 229B7F6EB79AFC0F607DE9BBE9048CE9 /* GDGeoCocoa */;
+			target = 3D50AE28018A1A6A001ABF4DFAD09E89 /* GDGeoCocoa */;
 			targetProxy = 6C020B0FC62DD23B13EFEDB13096E6E0 /* PBXContainerItemProxy */;
 		};
 		C292F14603D875085478301F6B09CACE /* PBXTargetDependency */ = {
@@ -1328,7 +1356,7 @@
 		C7F3F17E7596C8C03128944A065919CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GDGeoCocoa;
-			target = 229B7F6EB79AFC0F607DE9BBE9048CE9 /* GDGeoCocoa */;
+			target = 3D50AE28018A1A6A001ABF4DFAD09E89 /* GDGeoCocoa */;
 			targetProxy = DEE293CB77CD282C7732AA8246A4B9DB /* PBXContainerItemProxy */;
 		};
 		EA18A64C5A463362E721A1B79833692A /* PBXTargetDependency */ = {
@@ -1446,6 +1474,18 @@
 			};
 			name = Debug;
 		};
+		103504A0E4C8D95810EF1BC199DB59CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B8A8621FEAAA477B2EAE4431F49324A /* GDGeoCocoa.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GDGeoCocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		1D3F230892BD0EEA59FAEF09C30C4C8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A13AEBD3A512EC975C2DD3AF8D8931D /* Expecta+Snapshots.xcconfig */;
@@ -1499,18 +1539,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		22CD826D113CE1026FAA40BAC92C060B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B8A8621FEAAA477B2EAE4431F49324A /* GDGeoCocoa.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = GDGeoCocoa;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		34C5460239592A220583F54E1D5E6368 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1603,7 +1631,7 @@
 			};
 			name = Debug;
 		};
-		58D96C653A3F5FC0CCA370ABB0317B9E /* Release */ = {
+		57C597F17ADD9243D99A20880A523853 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B8A8621FEAAA477B2EAE4431F49324A /* GDGeoCocoa.xcconfig */;
 			buildSettings = {
@@ -1629,33 +1657,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		5A059121E11873FEBCD853C9EA8A9DD4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B8A8621FEAAA477B2EAE4431F49324A /* GDGeoCocoa.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GDGeoCocoa/GDGeoCocoa-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GDGeoCocoa/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GDGeoCocoa/GDGeoCocoa.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GDGeoCocoa;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		5B82CF2FBF33C77017DA6EDED034A81B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1793,17 +1794,32 @@
 			};
 			name = Debug;
 		};
-		D40EFBED4A5F8C3C323D7E9B6DC7609C /* Release */ = {
+		A88CB86D873A097D5BCDCA2C352256F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B8A8621FEAAA477B2EAE4431F49324A /* GDGeoCocoa.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GDGeoCocoa/GDGeoCocoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GDGeoCocoa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GDGeoCocoa/GDGeoCocoa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = GDGeoCocoa;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D6A7AC9BBF66F5337ACA6469A58B52E6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1835,14 +1851,44 @@
 			};
 			name = Release;
 		};
+		FDC5844E86FD45661C9345F8402024FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B8A8621FEAAA477B2EAE4431F49324A /* GDGeoCocoa.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GDGeoCocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B760684AA7CB2F7FF05519C426CE0E1 /* Build configuration list for PBXNativeTarget "GDGeoCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88CB86D873A097D5BCDCA2C352256F1 /* Debug */,
+				57C597F17ADD9243D99A20880A523853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
 				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4B12C8247C4E18F56B1F826D33ECF0 /* Build configuration list for PBXNativeTarget "GDGeoCocoa-GDGeoCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC5844E86FD45661C9345F8402024FE /* Debug */,
+				103504A0E4C8D95810EF1BC199DB59CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1892,29 +1938,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D915D75E210E5551876BA1598C1B9011 /* Build configuration list for PBXNativeTarget "GDGeoCocoa-GDGeoCocoa" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22CD826D113CE1026FAA40BAC92C060B /* Debug */,
-				D40EFBED4A5F8C3C323D7E9B6DC7609C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DC61702A42844E4ED762A73E8893436B /* Build configuration list for PBXNativeTarget "Expecta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B0ED2539FD84095ADF011B9A7502D8E /* Debug */,
 				5B82CF2FBF33C77017DA6EDED034A81B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0D458083688C7EFBBAD41770677E4CA /* Build configuration list for PBXNativeTarget "GDGeoCocoa" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A059121E11873FEBCD853C9EA8A9DD4 /* Debug */,
-				58D96C653A3F5FC0CCA370ABB0317B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

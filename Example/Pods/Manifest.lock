@@ -26,7 +26,7 @@ SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: 29b38dd695bc72a0ed2bea833937d78df41943ba
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  GDGeoCocoa: a02380d5600e03b63f9ff9185d711dba066a86dd
+  GDGeoCocoa: 3c1114fe8a7e1fc16b20d99ec22cee383dd470f9
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 COCOAPODS: 0.39.0

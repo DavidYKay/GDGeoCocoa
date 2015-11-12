@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '62B2FAB7E03648EE0B7C34C7'
+               BlueprintIdentifier = '6FCFC09E1B25EDC3B6430644'
                BlueprintName = 'Pods-GDGeoCocoa_Tests'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_GDGeoCocoa_Tests.framework'>

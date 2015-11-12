@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '309F8DADAE77A396C3AFF67C'
+               BlueprintIdentifier = '0A3002451B55ACE82A08C01D'
                BlueprintName = 'GDGeoCocoa-GDGeoCocoa'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'GDGeoCocoa.bundle'>

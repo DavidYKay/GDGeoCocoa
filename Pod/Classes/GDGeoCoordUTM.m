@@ -173,13 +173,13 @@
 
 - (NSString *)zoneLetter
 {
-    NSString *zone = [self zone];
+    NSString *zone = self.zone;
     return [zone substringFromIndex:[zone length] - 1];
 }
 
 - (NSInteger) zoneNumber
 {
-    NSString *zone = [self zone];
+    NSString *zone = self.zone;
     return [[zone substringToIndex:[zone length] -1] integerValue];
 }
 
