@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GDGeoCocoa"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A library for converting lat/long to and from MGRS and UTM"
 
 # This description is used to generate tags and improve search results.
