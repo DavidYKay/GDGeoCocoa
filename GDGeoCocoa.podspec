@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/gdey/GDGeoCocoa"
+  s.homepage         = "https://github.com/davidykay/GDGeoCocoa"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'BSD'
   s.author           = { "Gautam Dey" => "gautam.dey77@gmail.com",
                          "David Young-Chan Kay" => "davidykay@gmail.com" }
-  s.source           = { :git => "https://github.com/gdey/GDGeoCocoa.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/davidykay/GDGeoCocoa.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
